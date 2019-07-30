@@ -27,9 +27,5 @@ public class ArvosteluDao {
     public List<Arvostelu> haeRavintolanArvostelut(int id) {
         List<Arvostelu> haettu = jdbc.query("select * from arvostelut where ravintola = ?", new Object[]{id}, arvosteluRowmapper);
         return haettu;
-     /*   if (haettu.isEmpty()) {
-            return Optional.empty();
-        }
-        return Optional.of(haettu.get(0)); */
     }
 }
