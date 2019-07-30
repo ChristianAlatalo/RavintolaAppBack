@@ -3,3 +3,4 @@ INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Burger Bar K
 INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Parmesan Arabia', 'Helsinki', 'Arabiankatu 5', 'pitseria');
 INSERT INTO arvostelut (ravintola, arvosana, arvio) VALUES ('1', '5', 'Hands down Suomen paras kebab');
 INSERT INTO arvostelut (ravintola, arvosana, arvio) VALUES ('3', '3', 'ihan ok krapulapitsat paremman puutteessa');
+INSERT INTO arvostelut (ravintola, arvosana, arvio) VALUES ('1', '4', 'Kebabit todella hyvia! Suosion takia kannattaa varautua jonottamaan hetken');
