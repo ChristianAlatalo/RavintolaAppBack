@@ -1,0 +1,13 @@
+package fi.academy.ravintolaappback;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class RavintolaappbackApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(RavintolaappbackApplication.class, args);
+    }
+
+}
