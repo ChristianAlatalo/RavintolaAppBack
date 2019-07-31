@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/api")
 public class RavintolaController {
 
@@ -32,4 +33,12 @@ public class RavintolaController {
 
     @GetMapping("/arvostelut/{id}")
     public List<Arvostelu> arvostelut(@PathVariable int id) { return arvdao.haeRavintolanArvostelut(id); }
+
+    @PostMapping("/arvostelut")
+    public void luoRavintola(@RequestBody Arvostelu a) {
+        int id = arvdao.lisaa(a);
+    }
+
+    @GetMapping("/arvostelut")
+    public List<Arvostelu> kaikkiArvostelut() {return arvdao.haeKaikkiArvostelut(); }
 }

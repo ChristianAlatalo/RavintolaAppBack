@@ -1,6 +1,23 @@
-INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('King Kebab Vallila', 'Helsinki', 'Makelankatu 31', 'pitseria');
-INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Burger Bar Kauppuri 5', 'Oulu', 'Kauppurienkatu 5', 'burger');
-INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Parmesan Arabia', 'Helsinki', 'Arabiankatu 5', 'pitseria');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('King Kebab Vallila', 'Helsinki', 'Makelankatu 31', 'Pitseria');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Burger Bar Kauppuri 5', 'Oulu', 'Kauppurienkatu 5', 'Burger');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Parmesan Arabia', 'Helsinki', 'Arabiankatu 5', 'Pitseria');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Jonen Grilli', 'Lahti', 'Vapaudenkatu 15', 'Grilli');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Burger Mafia Karpanen', 'Lahti', 'Kasakkamaentie 4', 'Grilli');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('McDonalds Helsinki Kamppi', 'Helsinki', 'Fredrikinkatu 46', 'Burger');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Capperi', 'Helsinki', 'Siltavoudintie 9', 'Italialainen');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('The Royal Garden', 'Oulu', 'Rautatienkatu 8', 'Kiinalainen');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Hai Long', 'Raahe', 'Rantakatu 51', 'Kiinalainen');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Raahen Kebab Grilli', 'Raahe', 'Ollisaarenkuja 1', 'Grilli');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Farang', 'Helsinki', 'Ainonkatu 3', 'Aasialainen');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Friends & Brgrs', 'Helsinki', 'Mikonkatu 8', 'Burger');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Rax Buffet', 'Vantaa', 'Tasetie 8', 'Pitseria');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Subway Jumbo', 'Vantaa', 'Vantaanportinkatu 3', 'Leipa');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Burger King', 'Helsinki', 'Helsingin rautatieasema', 'Burger');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Viikinkiravintola Harald', 'Kuopio', 'Tulliportinkatu 44', 'Viikinkiruoka');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Limingantullin Auto-Grilli', 'Oulu', 'Kempeleentie 5', 'Grilli');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Burger King', 'Kuopio', 'Matkuksentie 60', 'Kuopio');
+INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Jankan Wanha Grilli', 'Tampere', 'Alasniitynkatu 34', 'Grilli');
 INSERT INTO arvostelut (ravintola, arvosana, arvio) VALUES ('1', '5', 'Hands down Suomen paras kebab');
-INSERT INTO arvostelut (ravintola, arvosana, arvio) VALUES ('3', '3', 'ihan ok krapulapitsat paremman puutteessa');
 INSERT INTO arvostelut (ravintola, arvosana, arvio) VALUES ('1', '4', 'Kebabit todella hyvia! Suosion takia kannattaa varautua jonottamaan hetken');
+INSERT INTO arvostelut (ravintola, arvosana, arvio) VALUES ('3', '3', 'ihan ok krapulapitsat paremman puutteessa');
+
