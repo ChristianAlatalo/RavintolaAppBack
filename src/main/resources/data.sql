@@ -17,7 +17,14 @@ INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Viikinkiravi
 INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Limingantullin Auto-Grilli', 'Oulu', 'Kempeleentie 5', 'Grilli');
 INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Burger King', 'Kuopio', 'Matkuksentie 60', 'Kuopio');
 INSERT INTO ravintolat (nimi, paikkakunta, osoite, tyyppi) VALUES ('Jankan Wanha Grilli', 'Tampere', 'Alasniitynkatu 34', 'Grilli');
+
 INSERT INTO arvostelut (ravintola, arvosana, arvio) VALUES ('1', '5', 'Hands down Suomen paras kebab');
 INSERT INTO arvostelut (ravintola, arvosana, arvio) VALUES ('1', '4', 'Kebabit todella hyvia! Suosion takia kannattaa varautua jonottamaan hetken');
+INSERT INTO arvostelut (ravintola, arvosana, arvio) VALUES ('1', '4', 'Herkulliset ruoat. Suosittelen vahvasti kokeilemaan!');
+INSERT INTO arvostelut (ravintola, arvosana, arvio) VALUES ('1', '5', 'Kings Kebab ei peta koskaan.');
+INSERT INTO arvostelut (ravintola, arvosana, arvio) VALUES ('2', '5', 'Huikeat burgerit. Ouluun kannattaa tulla pelkastaan taman takia.');
+INSERT INTO arvostelut (ravintola, arvosana, arvio) VALUES ('2', '4', 'Pieni paikka, mutta sitakin paremmat ruoat. Suosittelen kokeilemaan teurastajaa');
+INSERT INTO arvostelut (ravintola, arvosana, arvio) VALUES ('2', '5', 'Iltasella saa pahimmillaan hetken jonottaa, etta saa istumapaikan, mutta odotus palkitsee. Parhaimmat burgerit mita olen maistanut');
 INSERT INTO arvostelut (ravintola, arvosana, arvio) VALUES ('3', '3', 'ihan ok krapulapitsat paremman puutteessa');
+INSERT INTO arvostelut (ravintola, arvosana, arvio) VALUES ('3', '3', 'kelvollinen lounaspaikka!');
 

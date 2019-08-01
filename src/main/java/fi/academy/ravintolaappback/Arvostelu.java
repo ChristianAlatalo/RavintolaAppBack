@@ -9,6 +9,12 @@ public class Arvostelu {
 
     public Arvostelu() {}
 
+    public Arvostelu(int ravintola, int arvosana, String arvio) {
+        this.ravintola = ravintola;
+        this.arvosana = arvosana;
+        this.arvio = arvio;
+    }
+
     public Arvostelu(int id, int ravintola, int arvosana, String arvio) {
         this.id = id;
         this.ravintola = ravintola;
